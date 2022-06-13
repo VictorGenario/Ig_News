@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { SignInButton } from '../SignInButton';
 import styles from './styles.module.scss';
 
 export function Header(){
@@ -6,7 +7,6 @@ export function Header(){
 
   function handleNavBar (){
     setIsActive(true);
-    
   }
 
   return(
@@ -19,6 +19,7 @@ export function Header(){
          
           
         </nav>
+        <SignInButton />
       </div>
     </header>
   );
