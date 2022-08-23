@@ -2,8 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/posts/[slug]": "pages/posts/[slug].js",
+  "/": "pages/index.js",
   "/api/auth/[...nextauth]": "pages/api/auth/[...nextauth].js",
-  "/api/subscribe": "pages/api/subscribe.js",
-  "/api/webhooks": "pages/api/webhooks.js",
-  "/": "pages/index.js"
+  "/posts/preview/[slug]": "pages/posts/preview/[slug].js"
 }
